@@ -1,5 +1,3 @@
-// CSS is handled by Next.js at runtime; TypeScript may not have declarations for this side-effect import.
-// @ts-expect-error — global CSS imports do not require TypeScript declarations.
 import '@/app/ui/global.css';
 import { inter } from '@/app/ui/fonts';
 
